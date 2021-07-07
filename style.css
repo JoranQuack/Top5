@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #181818; 
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #aaaaaa;
+    border-radius: 5px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6d6d6d; 
+  }
+
+header{
+    background-color:#202020d0;
+    text-align: left;
+    color: rgb(224, 224, 224);
+    position: fixed;
+    width: 100%;  
+    top: 0;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin: 0;
+    font-size: 250%;
+    padding: 4vh;
+    padding-left: 4vw;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    background-color: #181818;
+}
+
+.box {
+    width: auto;
+    margin: 5vh 5vh 0 5vh;
+    background-color: #2e2e2e;
+    border-radius: 35px;
+    padding: 5vh;
+    display: flex;
+    justify-content: space-between;
+}   
+.box > div > p {
+    width: 60vw;
+}
+
+.boxtext {
+    margin-right: 3vw;
+    margin-left: 0;
+}
+
+.topbox {
+    margin-top: 21vh;
+}
+
+.bottombox {
+    margin-bottom: 3vw;
+}
+
+img {
+    width: 50vh;
+    border-radius: 20px;
+}
+
+h1, h2, h3, h4, p
+{
+    color: rgb(224, 224, 224);
+}
