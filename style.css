@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0.8vw;
   }
   /* Track */
   ::-webkit-scrollbar-track {
@@ -8,11 +8,11 @@
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #aaaaaa;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #6d6d6d; 
+    background: #6d6d6d;
   }
 
 header{
@@ -31,6 +31,11 @@ header{
 a {
     color: inherit;
     text-decoration: none;
+    font-size: 1.3vw;
+}
+
+a:hover {
+    color: rgb(150, 150, 150);
 }
 
 html {
@@ -39,8 +44,8 @@ html {
 
 h1 {
     margin: 0;
-    font-size: 250%;
-    padding: 4vh;
+    font-size: 3.1vw;
+    padding: 2vw;
     padding-left: 4vw;
 }
 
@@ -52,24 +57,21 @@ body {
 
 .box {
     width: auto;
-    margin: 5vh 5vh 0 5vh;
+    margin: 3vw 2vw 0 2vw;
     background-color: #2e2e2e;
-    border-radius: 35px;
-    padding: 5vh;
+    border-radius: 2vw;
+    padding: 2.5vw;
     display: flex;
     justify-content: space-between;
 }   
-.box > div > p {
-    width: 60vw;
-}
 
 .boxtext {
-    margin-right: 3vw;
     margin-left: 0;
+    width: 67.4vw;
 }
 
 .topbox {
-    margin-top: 21vh;
+    margin-top: 10vw;
 }
 
 .bottombox {
@@ -77,11 +79,25 @@ body {
 }
 
 img {
-    width: 50vh;
-    border-radius: 20px;
+    width: 20vw;
+    height: 20vw;   
+    border-radius: 1.5vw;
+    margin-right: 2vw;
 }
 
-h1, h2, h3, h4, p
+h1, h2, h3, h4, p, a
 {
     color: rgb(224, 224, 224);
+}
+
+.headerLink {
+    margin-left: 2vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.2vw;
 }
