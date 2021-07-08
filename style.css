@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Product';
+    src: url(./ProductSans-Thin.ttf);
+}
+
 ::-webkit-scrollbar {
     width: 0.8vw;
   }
@@ -51,7 +56,7 @@ h1 {
 
 body {
     margin: 0;
-    font-family: 'Roboto';
+    font-family: 'Product';
     background-color: #181818;
 }
 
