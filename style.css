@@ -17,7 +17,7 @@
   }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #6d6d6d;
+    background: #4d4d4d;
   }
 
 header{
@@ -66,9 +66,19 @@ body {
     background-color: #2e2e2e;
     border-radius: 2vw;
     padding: 2.5vw;
+    padding-top: 1.2vw;
+}   
+
+.boximg {
     display: flex;
     justify-content: space-between;
+    padding: 2.5vw;
 }   
+
+iframe {
+    color: black;
+    border-radius: 30px;
+}
 
 .boxtext {
     margin-left: 0;
@@ -81,6 +91,10 @@ body {
 
 .bottombox {
     margin-bottom: 3vw;
+}
+
+.justtext{
+    padding-bottom: 0.6vw;
 }
 
 img {
