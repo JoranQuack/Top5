@@ -5,38 +5,48 @@
 
 ::-webkit-scrollbar {
     width: 0.8vw;
-  }
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #181818; 
-  }
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #181818;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
     background: #aaaaaa;
     border-radius: 10px;
-  }
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #4d4d4d;
-  }
+}
 
-header{
-    background-color:#202020bb;
-    text-align: left;
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #4d4d4d;
+}
+
+header {
+    background-color: #202020bb;
+    text-align: center;
     color: rgb(224, 224, 224);
     position: fixed;
-    width: 100%;  
+    width: 100%;
+    height: 19vw;
     top: 0;
     backdrop-filter: blur(6px);
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 
 a {
     color: inherit;
     text-decoration: none;
-    font-size: 1.3vw;
+    font-size: 3vw;
+    margin-top: 0;
 }
 
 a:hover {
@@ -49,9 +59,9 @@ html {
 
 h1 {
     margin: 0;
-    font-size: 3.1vw;
+    font-size: 7vw;
     padding: 2vw;
-    padding-left: 4vw;
+    padding-left: 0;
 }
 
 body {
@@ -64,20 +74,18 @@ body {
     width: auto;
     margin: 3vw 2vw 0 2vw;
     background-color: #2e2e2e;
-    border-radius: 2vw;
-    padding: 2.5vw;
+    border-radius: 5vw;
+    padding: 4vw;
     padding-top: 1.2vw;
-}   
+}
 
 .boximg {
-    display: flex;
-    justify-content: space-between;
     padding: 2.5vw;
-}   
+}
 
 iframe {
     color: black;
-    border-radius: 30px;
+    border-radius: 60px;
 }
 
 .boxtext {
@@ -86,26 +94,33 @@ iframe {
 }
 
 .topbox {
-    margin-top: 10vw;
+    margin-top: 22vw;
 }
 
 .bottombox {
     margin-bottom: 3vw;
 }
 
-.justtext{
+.justtext {
     padding-bottom: 0.6vw;
 }
 
 img {
     width: 20vw;
-    height: 20vw;   
+    height: 20vw;
     border-radius: 1.5vw;
     margin-right: 2vw;
+    width: 300px;
+    height: 337px;
+    object-fit: cover;
 }
 
-h1, h2, h3, h4, p, a
-{
+h1,
+h2,
+h3,
+h4,
+p,
+a {
     color: rgb(224, 224, 224);
 }
 
@@ -114,18 +129,133 @@ h1, h2, h3, h4, p, a
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 p {
-    font-size: 1.2vw;
+    font-size: 3vw;
 }
 
 .button {
-    margin: 100vw 0 5vw 45vw; 
+    margin: 100vw 0 5vw 45vw;
     width: 8vw;
-    color:rgb(255, 255, 255);
-    text-align: center; 
+    color: rgb(255, 255, 255);
+    text-align: center;
     font-size: 3vw;
     border-radius: 100px;
+}
+
+@media (min-width: 700px) {
+     ::-webkit-scrollbar {
+        width: 0.8vw;
+    }
+    /* Track */
+     ::-webkit-scrollbar-track {
+        background: #181818;
+    }
+    /* Handle */
+     ::-webkit-scrollbar-thumb {
+        background: #aaaaaa;
+        border-radius: 10px;
+    }
+    /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+        background: #4d4d4d;
+    }
+    header {
+        background-color: #202020bb;
+        text-align: left;
+        color: rgb(224, 224, 224);
+        position: fixed;
+        width: 100%;
+        height: 8vw;
+        top: 0;
+        backdrop-filter: blur(6px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+        font-size: 1.3vw;
+    }
+    a:hover {
+        color: rgb(150, 150, 150);
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    h1 {
+        margin: 0;
+        font-size: 3.1vw;
+        padding: 2vw;
+        padding-left: 4vw;
+    }
+    body {
+        margin: 0;
+        font-family: 'Product';
+        background-color: #181818;
+    }
+    .box {
+        width: auto;
+        margin: 3vw 2vw 0 2vw;
+        background-color: #2e2e2e;
+        border-radius: 2vw;
+        padding: 2.5vw;
+        padding-top: 1.2vw;
+    }
+    .boximg {
+        display: flex;
+        justify-content: space-between;
+        padding: 2.5vw;
+    }
+    iframe {
+        color: black;
+        border-radius: 30px;
+    }
+    .boxtext {
+        margin-left: 0;
+        width: 67.4vw;
+    }
+    .topbox {
+        margin-top: 10vw;
+    }
+    .bottombox {
+        margin-bottom: 3vw;
+    }
+    .justtext {
+        padding-bottom: 0.6vw;
+    }
+    img {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 1.5vw;
+        margin-right: 2vw;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    a {
+        color: rgb(224, 224, 224);
+    }
+    .headerLink {
+        margin-left: 2vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+    p {
+        font-size: 1.2vw;
+    }
+    .button {
+        margin: 100vw 0 5vw 45vw;
+        width: 8vw;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 3vw;
+        border-radius: 100px;
+    }
 }
