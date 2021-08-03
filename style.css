@@ -7,25 +7,22 @@
     width: 0.8vw;
 }
 
-
 /* Track */
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #181818;
 }
 
-
 /* Handle */
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #aaaaaa;
     border-radius: 10px;
 }
 
-
 /* Handle on hover */
 
- ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #4d4d4d;
 }
 
@@ -85,12 +82,18 @@ body {
 
 iframe {
     color: black;
-    border-radius: 60px;
+    border-radius: 4vw;
+    border: none;
+    width: 88vw;
+    max-height: 49.5vw;
+}
+
+.soundbutton {
+    width: 110px;
 }
 
 .boxtext {
-    margin-left: 0;
-    width: 67.4vw;
+    margin-left: 1vw;
 }
 
 .topbox {
@@ -106,21 +109,14 @@ iframe {
 }
 
 img {
-    width: 20vw;
-    height: 20vw;
-    border-radius: 1.5vw;
+    width: 100%;
+    height: 40vw;
+    border-radius: 3.5vw;
     margin-right: 2vw;
-    width: 300px;
-    height: 337px;
     object-fit: cover;
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-a {
+h1, h2, h3, h4, p, a {
     color: rgb(224, 224, 224);
 }
 
@@ -145,21 +141,21 @@ p {
     border-radius: 100px;
 }
 
-@media (min-width: 700px) {
-     ::-webkit-scrollbar {
+@media (min-width: 770px) {
+    ::-webkit-scrollbar {
         width: 0.8vw;
     }
     /* Track */
-     ::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track {
         background: #181818;
     }
     /* Handle */
-     ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         background: #aaaaaa;
         border-radius: 10px;
     }
     /* Handle on hover */
-     ::-webkit-scrollbar-thumb:hover {
+    ::-webkit-scrollbar-thumb:hover {
         background: #4d4d4d;
     }
     header {
@@ -198,8 +194,9 @@ p {
         background-color: #181818;
     }
     .box {
-        width: auto;
-        margin: 3vw 2vw 0 2vw;
+        width: 91vw;
+        height: fit-content;
+        margin: 2vw 2vw 0 2vw;
         background-color: #2e2e2e;
         border-radius: 2vw;
         padding: 2.5vw;
@@ -211,12 +208,15 @@ p {
         padding: 2.5vw;
     }
     iframe {
-        color: black;
-        border-radius: 30px;
+        border-radius: 2vw;
+        width: 41vw;
+        max-height: 24.75vw;
+    }
+    .soundbutton {
+        width: 110px;
     }
     .boxtext {
         margin-left: 0;
-        width: 67.4vw;
     }
     .topbox {
         margin-top: 10vw;
@@ -228,17 +228,13 @@ p {
         padding-bottom: 0.6vw;
     }
     img {
+        object-fit: cover;
         width: 20vw;
         height: 20vw;
         border-radius: 1.5vw;
         margin-right: 2vw;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    p,
-    a {
+    h1, h2, h3, h4, p, a {
         color: rgb(224, 224, 224);
     }
     .headerLink {
@@ -257,5 +253,21 @@ p {
         text-align: center;
         font-size: 3vw;
         border-radius: 100px;
+    }
+    .cont {
+        display: flex;
+        margin: 0;
+    }
+    .nottop {
+        margin-top: 10vw;
+    }
+    .leftbox {
+        margin-right: 0vw;
+    }
+    .rightbox {
+        margin-left: 2vw;
+    }
+    .leftbox, .rightbox {
+        width: 43vw;
     }
 }
