@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top 5</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="icon" href="../icon.png">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./icon.png" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="/">
-            <h1 class="text">Top 5</h1>
-        </a>
-        <div>
-            <a href="./memes.html" class="headerLink text">Memes</a>
-            <a href="./sounds.html" class="headerLink text">Sounds</a>
-            <a href="./alex.html" class="headerLink text">Alex Quotes</a>
-            <a style="margin-right: 4vw;" href="./videos.html" class="headerLink text">Videos</a>
-        </div>
+      <a href="/">
+        <h1 class="text">Top 5</h1>
+      </a>
+      <div>
+        <a href="./memes.html" class="headerLink text">Memes</a>
+        <a href="./sounds.html" class="headerLink text">Sounds</a>
+        <a href="./alex.html" class="headerLink text">Alex Quotes</a>
+        <a
+          style="margin-right: 4vw"
+          href="./videos.html"
+          class="headerLink text"
+          >Videos</a
+        >
+      </div>
     </header>
     <div class="justtext box topbox">
-        <div class="justtext">
-            <h2>Welcome!</h2>
-            <p>This website was made by the penguin. Use the header to navigate through different pages of funny stuff
-                lol. Enjoy ❤</p>
-        </div>
+      <div class="justtext">
+        <h2>Welcome!</h2>
+        <p>
+          This website was made by the penguin. Use the header to navigate
+          through different pages of funny stuff lol. Enjoy ❤
+        </p>
+      </div>
     </div>
     <div class="justtext box">
-        <div class="justtext">
-            <h2>Sources:</h2>
-            <a href="https://www.youtube.com/">YouTube</a>
-            <br>
-            <a href="https://www.myinstants.com/index/nz/" style="margin-bottom: 30vw;">MyInstants</a>
-        </div>
+      <div class="justtext">
+        <h2>Sources:</h2>
+        <a href="https://www.youtube.com/">YouTube</a>
+        <br />
+        <a
+          href="https://www.myinstants.com/index/nz/"
+          style="margin-bottom: 30vw"
+          >MyInstants</a
+        >
+      </div>
     </div>
     <script>
-        function playAudio(url) {
-            new Audio(url).play();
-        }
+      function playAudio(url) {
+        new Audio(url).play();
+      }
     </script>
-    <a href="https://i.ytimg.com/vi/TCycUQNe5-0/hqdefault.jpg" target="_blank" onclick="playAudio('./rick.mp3')">
-        <p class="button">LOL</p>
+    <a onclick="playAudio('./rick.mp3')">
+      <p class="button">LOL</p>
     </a>
+  </body>
+</html>
